@@ -1,0 +1,541 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: white;
+  color: black;
+}
+.top {
+  height: 94vh;
+  color: white;
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(food.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.startline {
+  display: flex;
+}
+.start {
+  cursor: pointer;
+  margin: 32px 466px 32px 140px;
+  font-weight: bold;
+}
+.nav {
+  margin: 33px 18px;
+}
+
+.nav li {
+  font-family: "Open Sans", sans-serif;
+  display: inline;
+  margin: 16px;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+.heading {
+  font-family: "Varela", sans-serif;
+  font-size: xxx-large;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+.subheading {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-family: "Varela", sans-serif;
+  font-weight: lighter;
+  margin: 25px;
+}
+.location_search {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 35px;
+  width: 54vw;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.fa-location-dot {
+  color: #ff0000b5;
+  font-size: 21px;
+  margin: 17px 10px;
+}
+#location_options {
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  outline:none;
+}
+.vl {
+  height: 30px;
+  border-left: 2px solid grey;
+  margin: 11px 14px;
+}
+.fa-magnifying-glass {
+  color: grey;
+  font-size: 21px;
+  margin: 17px 10px;
+  color: #808080bd;
+}
+#Search {
+  border: none;
+  width: 100%;
+  outline:none;
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 9px;
+}
+
+/* Section2 */
+.section2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+}
+.first_image,
+.second_image,
+.third_image {
+  margin-right: 30px;
+  border: 0.1px solid #80808038;
+  border-radius: 18px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.first_image:hover,
+.second_image:hover,
+.third_image:hover {
+  transform: scale(1.05);
+}
+.first_image img,
+.second_image img,
+.third_image img {
+  width: 350px;
+  height: 160px;
+  object-fit: cover;
+}
+.section2 .l1 {
+  color: black;
+  font-size: 18px;
+  margin: 8px 18px 4px 18px;
+  font-family: "Varela", sans-serif;
+  font-weight: bold;
+  color: #000000ad;
+}
+.section2 .l2 {
+  color: grey;
+  font-size: 16px;
+  margin: 4px 18px 15px 18px;
+  font-family: "Varela", sans-serif;
+}
+
+/* Section 3 */
+.section3 h1 {
+  margin: 50px 0px 8px 104px;
+    font-family: sans-serif;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    font-size: 39px;
+}
+.line {
+  margin: 10px 0px 25px 104px;
+  font-weight: lighter;
+    font-size: large;
+    font-family: sans-serif;
+    color: #000000cc;
+    letter-spacing: 0.3px;
+}
+.line a {
+  color: #ff0000a6;
+  text-decoration: none;
+  margin-left: 98px;
+}
+.line a:hover{
+  color:#ff0000eb;
+}
+.images {
+  display: flex ;
+  margin:auto;
+  justify-content: center;
+}
+.image1, .image2, .image3, .image4{
+  position: relative;
+  width: 100%;
+  height: 336px;
+  cursor:pointer;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.image1{
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)) ,url("/section3images/Instaworthyrestaurant.webp");
+  margin-left: 104px;
+}
+.image2{
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)) ,url("/section3images/Romantic\ dining2.jfif");
+  background-size: 264px 336px;
+
+}
+.image3{
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6)) ,url("/section3images/top\ 10.jfif");
+  background-size: 271px 336px;
+  background-repeat: no-repeat;
+}
+.image4{
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)) ,url("/section3images/Rooftop.jfif");
+  margin-right: 128px;
+  background-size: 272px 336px;
+}
+.image1 .l1, .image2 .l1, .image3 .l1, .image4 .l1{
+  color: white;
+  position: absolute;
+  font-size: 15px;
+  bottom: 31px;
+  left: 15px;
+  font-size: 19px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.image1 .l2, .image2 .l2, .image3 .l2, .image4 .l2{
+  color:white;
+  position: absolute;
+  bottom:12px;
+  left:17px;
+  font-size: 15px;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+/* Section4 */
+.section4 .head {
+  margin: 110px 0px 40px 104px;
+  font-size: 37px;
+  font-family: system-ui;
+  color: #000000c7;
+}
+.section4 .head2 {
+  font-weight: 500;
+}
+.section4 #Popular {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 104px;
+}
+.section4 .Places a, .Places1 a {
+  text-decoration: none;
+  color: black;
+}
+.section4 .Places {
+  display: flex;
+  width: 100%;
+  max-width: 27%;
+  border: 2px solid #8080801c;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  padding: 10px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.section4 .Places1 {
+  display: flex;
+  width: 100%;
+  max-width: 27%;
+  border: 2px solid #8080801c;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.Places .l1, .Places1 .l1 {
+  margin: 5px 10px 5px 10px;
+  color: black;
+  font-size: larger;
+  font-family: sans-serif;
+}
+.Places .l2{
+  margin: 6px 0 5px 10px;
+  color: #000000a8;
+  font-family: sans-serif;
+  font-size: large;
+}
+
+.Places .numberofplaces {
+  margin: 19px 13px 5px 10px;
+  font-size: 12px;
+  color: #000000b5;
+}
+/* Section5 */
+.section5 {
+  display: flex;
+  justify-content: center;
+}
+.section5 .h2 {
+  font-size: x-large;
+}
+.section5 .image {
+  margin-top: 200px;
+  margin-right: 35px;
+}
+.section5 .email_phone {
+  position: relative;
+  top: 148px;
+}
+.email_phone h2 {
+  font-size: xxx-large;
+  font-family: system-ui;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+.email_phone .p1 {
+  font-size: 19px;
+  width: 30rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.email_phone_option
+{
+  display: flex;
+}
+#radio{
+margin-right: 10px;
+border: none;
+    width: 26px;
+    height: 17px;
+    margin-bottom: 22px;
+    cursor: pointer;
+}
+.email{
+  color: #000000ba;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-right: 60px;
+}
+.email_phone .p2 {
+  font-size: 17px;
+  width: 30rem;
+  margin-bottom: 13px;
+  color: #0000007d;
+  font-family: sans-serif;
+}
+.email_line {
+  display: flex;
+  margin-bottom: 25px;
+}
+input[type="email"] {
+  width: 55%;
+  border: 1px solid grey;
+  border-radius: 6px;
+  padding: 15px 0 15px 12px;
+  margin-right: 10px;
+  border: 1px solid #80808080;
+}
+input[type="email"]:focus {
+  outline: none;
+  border: 1px solid rgba(17, 145, 153, 1);
+}
+input[type="email"]::placeholder {
+  color: #80808080;
+  font-size: medium;
+  font-weight: lighter;
+}
+.email_line button {
+  background-color: #ff0000b0;
+  border: none;
+  border-radius: 6px;
+  padding: 13px;
+  font-size: 17px;
+}
+.email_line a {
+  text-decoration: none;
+  color: white;
+}
+.section6 {
+  margin-left: 104px;
+  margin-bottom: 50px;
+  margin-top: 140px;
+}
+.section6 p {
+  font-size: xx-large;
+  font-family: sans-serif;
+  padding-bottom: 25px;
+  justify-content: center;
+  color: #000000c7;
+}
+.section6 .opton {
+  border: 1px solid #80808059;
+  border-radius: 6px;
+  max-width: 77%;
+  padding: 22px;
+  margin-bottom: 23px;
+}
+.section6 .Options{
+  display: flex;
+justify-content: space-between;
+cursor: pointer;
+}
+.section6 .Options h2 {
+  color: #000000c7;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+.section6 .Options i {
+  padding-top: 5px;
+}
+.cuisines, .restaurantTypes{
+  margin-top: 24px;
+  font-size: 17px;
+  font-family: sans-serif;
+  line-height: 1.7rem;
+}
+.cuisines a, .restaurantTypes a, .restaurantChains a, .cities a{
+  text-decoration: none;
+  color: rgb(105 105 105 / 79%);
+}
+.restaurantChains, .cities{
+  margin-top: 24px;
+  font-size: 17px;
+  font-family: sans-serif;
+  line-height: 2.3rem;
+  display:inline-block;
+  width:100%; 
+  /* imp */
+}
+.restaurantChains a, .cities a{
+  display: inline-block;
+  width:20%;
+}
+.restaurantChains a:hover,.cuisines a:hover, .restaurantTypes a:hover, .cities a:hover{
+  color:#000000d1;
+}
+.dot{
+  width:3px;
+  height:3px;
+  background-color: rgb(105,105,105);
+   display: inline-block; /*  inline se nhi horaha */
+   margin: 3px 10px; 
+}
+/* Footer */
+footer {
+  background-color: #8080800a;
+}
+.foot {
+  width: 89vw;
+  padding-bottom: 35px;
+}
+footer .l1 {
+  position: relative;
+  top: 26px;
+  margin-left: 104px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  align-items: flex-end;
+}
+footer .l1 section {
+  display: flex;
+  justify-content: center;
+}
+footer h2 {
+  font-size: 39px;
+  font-family: system-ui;
+  font-weight: 900;
+  font-style: italic;
+}
+footer section {
+  margin-top: 26px;
+}
+section .l2 {
+  border: 1px solid #80808094;
+  border-radius: 7px;
+  padding: 10px 10px;
+  font-family: sans-serif;
+  margin-right: 20px;
+  cursor: pointer;
+}
+section .l2 span {
+  font-size: 19px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+.sections {
+  display: flex;
+}
+.sections nav {
+  display: flex;
+  flex-direction: column;
+}
+.sections {
+  margin-left: 104px;
+}
+.sections .sec1 h6,
+.sections .sec4 h6 {
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  margin-right: 65px;
+  margin-bottom: 16px;
+}
+.sections .sec2 h6,
+.sections .sec3 h6 {
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  margin-right: 100px;
+  margin-bottom: 16px;
+}
+.sections .sec5 h6 {
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+}
+.sections a {
+  text-decoration: none;
+  color: #0000007a;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.sections .sec3 .ENTERPRISES {
+  margin-top: 20px;
+}
+.sec5 nav {
+  margin-top: 15px;
+}
+.sec5 nav a {
+  margin-right: 6px;
+  color: black;
+  font-size: 20px;
+}
+.sec5 .img {
+  margin-top: 22px;
+  margin-bottom: 8px;
+}
+hr {
+  margin-top: 40px;
+  margin-left: 104px;
+  margin-bottom: 21px;
+}
+footer p {
+  font-size: 14px;
+  margin-left: 104px;
+  font-family: sans-serif;
+  color: #000000a3;
+}
+
+@media screen and (max-width: 1370px){
+
+}
