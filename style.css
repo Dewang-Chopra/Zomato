@@ -175,21 +175,21 @@
   margin-right: 10px;
 }
 .image1{
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)) ,url("/section3images/Instaworthyrestaurant.webp");
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)) ,url("section3images/Instaworthyrestaurant.webp");
   margin-left: 104px;
 }
 .image2{
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)) ,url("/section3images/Romantic\ dining2.jfif");
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)) ,url("section3images/Romantic\ dining2.jfif");
   background-size: 264px 336px;
 
 }
 .image3{
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6)) ,url("/section3images/top\ 10.jfif");
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6)) ,url("section3images/top\ 10.jfif");
   background-size: 271px 336px;
   background-repeat: no-repeat;
 }
 .image4{
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)) ,url("/section3images/Rooftop.jfif");
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)) ,url("section3images/Rooftop.jfif");
   margin-right: 128px;
   background-size: 272px 336px;
 }
